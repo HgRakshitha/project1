@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+}
+body{
+
+    background-color: #95e2f2;
+    font-family: 'Edu TAS Beginner';
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #5caf91;
+}
+.intro{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro img{
+    margin-top: 20px;
+    height: 450px;
+    width: 650px;
+}
+.cloud1{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: -40px;
+    
+}
+.cloud2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70%;
+    height: 100px;
+    
+
+}
+.cloud3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.cloud4{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    margin-left: 600px;
+
+}
+
+hr{
+    border-style: none;
+    border-top: dotted;
+    margin: 20px;
+    color: #890fbd;
+    width: 60%;
+    border-width: 5px;
+}
+
+.container{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutme{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme .rightimg{
+    margin-right: 40px;
+    height: 200px;
+    width: 200px;
+}
+.aboutme p{
+    font-size: 20px;
+}
+.leftimg{
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+}
+.bottom_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #5fb696;
+}
+.links{
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+}
